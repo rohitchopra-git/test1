@@ -63,20 +63,20 @@ Before proceeding with the installation, ensure the following:
 
 
 
-sudo apt update
-sudo apt install postgresql postgresql-contrib
-sudo systemctl start postgresql
-sudo systemctl enable postgresql
-sudo -u postgres psql
+- sudo apt update
+- sudo apt install postgresql postgresql-contrib
+- sudo systemctl start postgresql
+- sudo systemctl enable postgresql
+- sudo -u postgres psql
 
 
-sudo -i -u postgres
-createuser sonar
-ALTER USER sonar WITH ENCRYPTED password 'abc@12345';
-CREATE DATABASE squbedb OWNER sonar;
-GRANT ALL PRIVILEGES ON DATABASE squbedb to sonar;
-\q
-exit
+- sudo -i -u postgres
+- createuser sonar
+- ALTER USER sonar WITH ENCRYPTED password 'abc@12345';
+- CREATE DATABASE squbedb OWNER sonar;
+- GRANT ALL PRIVILEGES ON DATABASE squbedb to sonar;
+- \q
+- exit
 
 ## **Step 1. Update and Upgrade System Packages**
 
