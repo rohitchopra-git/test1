@@ -113,7 +113,7 @@ __
 
 ## **Step 5. Configure SonarQube**
 
-To configure the sonarqube follow the [link to configure Sonarqube]( https://github.com/snaatak-Zero-Downtime-Crew/Documentation/blob/Rohit-SCRUM-77/Common/Software%20/Sonarqube/Configuration/README.md)
+To configure the sonarqube follow the [link to configure Sonarqube](https://github.com/rohitchopra-git/test1/blob/main/confsonar.md)
 
 ## **Step 6. Check the service status**
 
